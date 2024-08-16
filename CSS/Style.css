@@ -1,0 +1,38 @@
+body, html{
+    margin:0;
+    padding:0;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+}
+header{
+    background-color: #8b0000;
+    height:50px ;
+    text-align:center;
+    color: white;
+    line-height:50px ; /*alinha o texto verticalmente*/
+}
+.container{
+    display: flex;
+    flex: 1;
+    background-color: #66CDAA; /*COR BEGE*/
+}
+
+.sidebar {
+    width: 20%;
+    background-color:#66CDAA; /* Cor-verde-água */
+    padding: 10px;
+ }
+ main {
+    flex: 1;
+    background-color: #F5F5DC;/* Cor bege */
+    padding: 10px;
+ }
+ footer {
+    background-color: #000000; /*Cor preta */
+    height: 30px;
+    text-align: center;
+    color: white;
+   line-height: 30px; /* Alinha o texto verticalmente */
+ }
+ 
